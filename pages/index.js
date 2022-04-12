@@ -44,7 +44,7 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyle.headingMd} ${utilStyle.padding1px}`}>
-        <p>究極のCX/EX体験</p>
+        <p>いまだかつてないCX/EX体験の追及</p>
       <div className={styles.grid}>
         {allPostsData.map(({id,title,date , thumbnail}) => (
         <article key={id}>
